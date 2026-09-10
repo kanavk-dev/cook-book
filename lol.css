@@ -1,0 +1,117 @@
+.main_box{
+    background-image: url("top-close-up-view-spices-bowls-spices-citrus-fruits-garlic.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}   
+
+*{
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        margin: 0;
+}
+
+.sidebar_menu{
+    position: fixed;
+    height: 350%;
+    width: 250px;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 10px 0 25px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    opacity: 80%;
+    top: 0;
+    left: 0;
+
+}
+
+.menu{
+    font-size: 20px;
+    color: rgb(117, 83, 83);
+   
+}
+
+.menu,a{
+    color: white;
+    padding: 08px 10px;
+    position: relative;
+    line-height: 75px;
+    text-decoration: none;
+}
+
+.menu,i{
+    color: white;
+    decoration: bold;
+}
+
+.logo{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.main_box,menu,li:hover{
+    box-shadow: 0 0 20px rgb(207, 195, 195);
+    transition: 0.5s;
+    font:40px;
+}
+
+.ok{
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    text-decoration: underline;
+   
+}
+
+.box{
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    
+}
+
+.recipes {
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    gap: 20px;
+}
+
+.recipe_card {
+    width: 250px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+    overflow: hidden;
+
+
+}
+
+.recipe_card {
+    transition: 0.4s;
+}
+
+.recipe_card:hover {
+    transform: translateY(-12px);
+}
+
+.recipe_card img {
+    width: 100%;
+    height: 110px;
+    object-fit:fill;
+}
+
+.recipe_info {
+    padding: 5px;
+    color: white;
+}
+
+.recipe_info h2 {
+    margin-bottom: 5px;
+}
